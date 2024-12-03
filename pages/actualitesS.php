@@ -72,6 +72,7 @@ include "layout/entete.php"
         </div>
         <div id="comments">
           <h2>Les Actualites Du Mois</h2>
+          <img src="../images/actualites/gwadelectikrun.png" alt="Actualités 1" class="image-actualites">
           <ul>
             <li>
               <article>
@@ -83,7 +84,7 @@ include "layout/entete.php"
                   <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
                 </header>
                 <div class="comcont">
-                  <p>This is an example of a comment made on a post. You can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or to share what you are thinking.</p>
+                    <img src="../images/actualites/expert.png" alt="Image article" class="article-image">
                 </div>
               </article>
             </li>
@@ -97,7 +98,7 @@ include "layout/entete.php"
                   <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
                 </header>
                 <div class="comcont">
-                  <p>This is an example of a comment made on a post. You can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or to share what you are thinking.</p>
+                   <img src="../images/actualites/carte.png" alt="Image article" class="article-image">
                 </div>
               </article>
             </li>
@@ -111,7 +112,7 @@ include "layout/entete.php"
                   <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
                 </header>
                 <div class="comcont">
-                  <p>This is an example of a comment made on a post. You can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or to share what you are thinking.</p>
+                    <img src="../images/actualites/locaux.png" alt="Image article" class="article-image">
                 </div>
               </article>
             </li>
