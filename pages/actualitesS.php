@@ -71,20 +71,55 @@ include "layout/entete.php"
           </table>
         </div>
         <div id="comments">
-          <h2>Les Actualites Du Mois</h2>
-          <img src="../images/actualites/gwadelectikrun.png" alt="Actualités 1" class="image-actualites">
+            <div class="container">
+              <h2 style="margin-left:254px">Les Actualites Du Mois</h2>
+              <table style="width: 1000px; margin: 0 auto;"><!-- placement de la barre -->
+                <thead>
+                <tr>
+                  <th>Header</th>
+                </tr>
+                </thead>
+                <tbody>
+        
+                </tbody><!-- s arrete là -->
+              </table>
+              <p style="text-align: center; margin-top:5px; margin-right:447px">dsfegrhtgrefzdyubhnij,ok;pdfgik,fnihyubfdbgfeinj,rhotgpk;hgefi,zdfnhyueij,ok;l<br>adezfertrytunhyrgetu,fziok;peglrb;àove<br></p>
+              <a href="www.google.com" style="margin-left:256px">en savoir plus</a>
+                <img src="../images/actualites/gwadelectikrun.png" alt="Actualités 1" class="image-actualites" style="display: block; margin: 0 auto;"><!-- Par défaut, les images sont des éléments en ligne (inline), ce qui empêche leur centrage avec margin: 0 auto;. En définissant display: block;, l'image se comporte comme un élément de bloc et peut être centrée correctement.-->
+            </div>
           <ul>
             <li>
               <article>
                 <header>
-                  <figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>
+                
+                  <table style="width: 1000px; margin: 0 auto;">
+                  <div class="barre" style="width: 100%; height: 30px; background-color: black; width: 1030px; height:35px;margin: 0 auto; text-align: center; line-height: 30px;">
+                      Barre de texte
+                  </div>
+                  <figure class="avatar" style="display: flex; justify-content: center;">
+                      <img src="../images/demo/avatar.png" alt="er">
+                  </figure>
                   <address>
                     By <a href="#">A Name</a>
                   </address>
                   <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
                 </header>
                 <div class="comcont">
-                    <img src="../images/actualites/expert.png" alt="Image article" class="article-image">
+                    <img src="../images/actualites/expert.png" style="margin:0 auto; display:block;" alt="Image article" class="article-image">
+                </div>
+              </article>
+            </li>
+            <li>
+              <article>
+                <header>
+                  <figure class="avatar"><img src="../images/demo/avatar.png"  alt=""></figure>
+                  <address>
+                    By <a href="#">A Name</a>
+                  </address>
+                  <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
+                </header>
+                <div class="comcont">
+                   <img src="../images/actualites/carte.png" style="margin:0 auto; display:block;" alt="Image article" class="article-image">
                 </div>
               </article>
             </li>
@@ -98,21 +133,7 @@ include "layout/entete.php"
                   <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
                 </header>
                 <div class="comcont">
-                   <img src="../images/actualites/carte.png" alt="Image article" class="article-image">
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <header>
-                  <figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>
-                  <address>
-                    By <a href="#">A Name</a>
-                  </address>
-                  <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
-                </header>
-                <div class="comcont">
-                    <img src="../images/actualites/locaux.png" alt="Image article" class="article-image">
+                    <img src="../images/actualites/locaux.png" style="margin:0 auto; display:block;" alt="Image article" class="article-image">
                 </div>
               </article>
             </li>

@@ -8,7 +8,7 @@
       <h6 class="heading">Coordonnées</h6>
       <ul class="nospace btmspace-30 linklist contact">
         <li><i class="fa fa-map-marker"></i>
-          <address>
+          <address style="background: none;">
           Lotissement les Mangles Acajou
           97232 Le Lamentin
           </address>
