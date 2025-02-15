@@ -8,7 +8,7 @@ include "layout/entete.php"
 
     
   <!-- #########################  Insertion de la banière (en haut droite) ######################### -->
-  <div class="wrapper row1">
+ <div class="wrapper row1">
 
     <?php
       include "layout/infos.php"
@@ -42,10 +42,7 @@ include "layout/entete.php"
     <div id="breadcrumb" class="hoc clear">
       <!-- #########################  Affichage du fil d'ariane ######################### -->
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Lorem</a></li>
-        <li><a href="#">Ipsum</a></li>
-        <li><a href="#">Dolor</a></li>
+        
       </ul>
     </div>
   </div>
@@ -53,99 +50,231 @@ include "layout/entete.php"
 
 
 
-  <div class="wrapper row3">
-    <main class="hoc container clear">     
-      
-          <table>
-            <thead>
-              <tr>
-                <th style="width: 1000px;">Header 1</th>
-              </tr>
-            </thead>
-            <tbody>
-             
-              
+  <div class="wrapper row3 table-container">
+        <main class="hoc container clear ">     
+      <div >
+              <table>
+                    <h2>Les Actualites Du Mois</h2>
+
+                    <thead>
+                  
+                      <tr>
+                        <th style="width: 1000px;">Amis sportifs, envie de vous defouler sur une nouvelle course ?</th>
+                        
+                      </tr>
+                    
+                    </thead>
+          
+                    <tbody>
+                        
+                      
               
 
-            </tbody>
+                    </tbody>
+            </table>
+
+
+            <table>
+              Rendez-vous le 24 Juin 2017, au Parc d’activités de Jarry à Baie-Mahault, pour la Gwad Electrik Run by Blandin ! Au programme ? 4 Km de fête mais aussi un village et de nombreuses animations à ne pas manquer ! 
+
+            </table>
+
+            <table>
+                   
+                
+                      
+                    <article>
+                                <header>
+                                  
+                                  <address>
+                                  <a href="#">en savoir plus </a>
+                                  </address>
+
+                                    <br>
+                                  <div style="text-align: center;">
+                                      <img src="../images/actualites/gwadelectikrun.png" alt="">
+                                  </div>
+                                  
+                                </header>
+                    </article>
+                      
+        
           </table>
-        </div>
-        <div id="comments">
-          <h2>Les Actualites Du Mois</h2>
-          <ul>
-            <li>
-              <article>
-                <header>
-                  <figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>
-                  <address>
-                    By <a href="#">A Name</a>
-                  </address>
-                  <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
-                </header>
-                <div class="comcont">
-                  <p>This is an example of a comment made on a post. You can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or to share what you are thinking.</p>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <header>
-                  <figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>
-                  <address>
-                    By <a href="#">A Name</a>
-                  </address>
-                  <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
-                </header>
-                <div class="comcont">
-                  <p>This is an example of a comment made on a post. You can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or to share what you are thinking.</p>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <header>
-                  <figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>
-                  <address>
-                    By <a href="#">A Name</a>
-                  </address>
-                  <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
-                </header>
-                <div class="comcont">
-                  <p>This is an example of a comment made on a post. You can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or to share what you are thinking.</p>
-                </div>
-              </article>
-            </li>
-          </ul>
-          <h2>Write A Comment</h2>
-          <form action="#" method="post">
-            <div class="one_third first">
-              <label for="name">Name <span>*</span></label>
-              <input type="text" name="name" id="name" value="" size="22" required>
-            </div>
-            <div class="one_third">
-              <label for="email">Mail <span>*</span></label>
-              <input type="email" name="email" id="email" value="" size="22" required>
-            </div>
-            <div class="one_third">
-              <label for="url">Website</label>
-              <input type="url" name="url" id="url" value="" size="22">
-            </div>
-            <div class="block clear">
-              <label for="comment">Your Comment</label>
-              <textarea name="comment" id="comment" cols="25" rows="10"></textarea>
-            </div>
-            <div>
-              <input type="submit" name="submit" value="Submit Form">
-              &nbsp;
-              <input type="reset" name="reset" value="Reset Form">
-            </div>
-          </form>
-        </div>
+
       </div>
-    
-      <div class="clear"></div>
-    </main>
+         
+
+
   </div>
+       
+
+  <div class="wrapper row3">
+        <main class="hoc container clear">     
+      
+            <table>
+                    
+
+                    <thead>
+                  
+                      <tr>
+                        <th style="width: 1000px;">Expert en Digitalisation (H/F)</th>
+                        
+                      </tr>
+                    
+                    </thead>
+          
+                    <tbody>
+                        
+                      
+              
+
+                    </tbody>
+            </table>
+
+
+            <table>
+              Présentation du contexte: Vous souhaitez participer à un projet stratégique dans le domaine de l’innovation et des technologies Web et mobiles ? 
+            </table>
+
+            <table>
+                   
+                
+                      
+                    <article>
+                                <header>
+                                  
+                                  <address>
+                                  <a href="#">en savoir plus </a>
+                                  </address>
+
+                                    <br>
+                                  <div style="text-align: center;">
+                                      <img src="../images/actualites/expert.png" alt="">
+                                  </div>
+                                  
+                                </header>
+                    </article>
+                      
+        
+          </table>
+
+
+  </div>
+
+
+
+  <div class="wrapper row3">
+        <main class="hoc container clear">     
+      
+            <table>
+                   
+
+                    <thead>
+                  
+                      <tr>
+                        <th style="width: 1000px;">Inscription carte Privilège</th>
+                        
+                      </tr>
+                    
+                    </thead>
+          
+                    <tbody>
+                        
+                      
+              
+
+                    </tbody>
+            </table>
+
+
+            <table>
+              RAu travers du site Blandin, vous pourrez faire l’inscription de votre carte privilège de manière rapide et efficace. Vous pourrez dés lors profiter de tous les avantages que vous confère votre carte Privilège. La carte Privilège c’est des avantages exclusifs ainsi que des services pour vous accompagner.
+
+            </table>
+
+            <table>
+                   
+                
+                      
+                    <article>
+                                <header>
+                                  
+                                  <address>
+                                  <a href="#">en savoir plus </a>
+                                  </address>
+
+                                    <br>
+                                  <div style="text-align: center;">
+                                      <img src="../images/actualites/carte.png" alt="">
+                                  </div>
+                                  
+                                </header>
+                    </article>
+                      
+        
+          </table>
+
+
+  </div>
+
+
+  <div class="wrapper row3">
+        <main class="hoc container clear">     
+      
+            <table>
+                   
+
+                    <thead>
+                  
+                      <tr>
+                        <th style="width: 1000px;">Bienvenue sur le nouveaux site Blandin</th>
+                        
+                      </tr>
+                    
+                    </thead>
+          
+                    <tbody>
+                        
+                      
+              
+
+                    </tbody>
+            </table>
+
+
+            <table>
+              Depuis plus de 60 ans, l’enseigne Blandin est spécialisée dans la vente de matériel électrique mais aussi dans le confort et la sécurité pour l’habitat. Nos équipes d’experts sont à votre service pour vous proposer les meilleures solutions et répondre au mieux à vos projets que vous soyez particuliers ou professionnels, en Guyane, Guadeloupe ou Martinique.
+
+            </table>
+
+            <table>
+                   
+                
+                      
+                    <article>
+                                <header>
+                                  
+                                  <address>
+                                  <a href="#">en savoir plus </a>
+                                  </address>
+
+                                    <br>
+                                  <div style="text-align: center;">
+                                      <img src="../images/actualites/locaux.png" alt="">
+                                  </div>
+                                  
+                                </header>
+                    </article>
+                      
+        
+          </table>
+
+
+  </div>
+    
+      
+    
+ 
 
 
   <!-- #########################  Insertion du pied de page ######################### -->
